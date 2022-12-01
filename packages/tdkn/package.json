@@ -1,0 +1,11 @@
+{
+  "name": "tdkn",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

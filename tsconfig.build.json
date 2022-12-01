@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "baseUrl": "."
+  },
+  "include": ["global.d.ts", "packages/tdkn/src"],
+  "exclude": ["packages/tdkn/dist"]
+}
