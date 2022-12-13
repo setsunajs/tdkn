@@ -1,5 +1,5 @@
 import path from "node:path"
-import { sassPlugin } from "esbuild-sass-plugin"
+// import { sassPlugin } from "esbuild-sass-plugin"
 import fg from "fast-glob"
 import { build } from "esbuild"
 import { execa } from "execa"
@@ -9,7 +9,7 @@ const createBuildConfig = ({ entry, prod = true, bundle, outDir }) => ({
   entryPoints: Array.isArray(entry) ? entry : [entry],
   outdir: outDir,
   format: "esm",
-  plugins: [sassPlugin()],
+  // plugins: [sassPlugin()],
   watch: !prod,
   minify: prod,
   treeShaking: true,
