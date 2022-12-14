@@ -8,7 +8,7 @@ import {
   sizeStyle,
   textStyle,
   variantStyle
-} from "./style"
+} from "./button.style"
 import { ButtonProps } from "./button.type"
 
 export const Button: FC<ButtonProps> = ({
@@ -23,6 +23,7 @@ export const Button: FC<ButtonProps> = ({
 }) => {
   let themeStyle: ACSSObject = {}
   if (disabled) {
+    ;(rest as any).disabled = disabled
     themeStyle = disabledStyle(
       text ? "text" : plain ? "plain" : "variant",
       variant

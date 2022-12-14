@@ -7,6 +7,7 @@
     "open": "cd ./packages/play && vite"
   },
   "devDependencies": {
+    "@setsunajs/css": "^0.2.3",
     "@setsunajs/plugin-setsuna": "^0.2.4",
     "@types/node": "^18.11.10",
     "chalk": "^5.1.2",

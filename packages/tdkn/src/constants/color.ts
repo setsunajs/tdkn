@@ -26,7 +26,7 @@ export const gray = {
   12: "#141414",
   13: "#000000",
   title: "#303133",
-
+  secondary: "#606266"
 }
 
 export const red = {
@@ -39,5 +39,5 @@ export const red = {
   7: "#B11E23",
   8: "#901019",
   9: "#6E0611",
-  10: "#4D000A",
+  10: "#4D000A"
 }

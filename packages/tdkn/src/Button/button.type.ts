@@ -12,5 +12,5 @@ export type ButtonProps = {
   shape?: "round" | "circle" | "default"
   plain?: boolean
   text?: boolean
-  atom?: ACSSObject
+  atom?: ACSSObject | ACSSObject[]
 } & Attributes<"button">
